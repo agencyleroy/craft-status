@@ -66,7 +66,7 @@ class StatusController extends BaseController
     // =========================================================================
 
     /**
-     * Function that gets hit when a request is made to `/reporter/status`.
+     * Function that gets hit when a request is made to `/craft-status/status`.
      *
      * @return array|false|string
      * @throws BadRequestHttpException

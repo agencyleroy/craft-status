@@ -56,7 +56,7 @@ class BaseController extends Controller
         }
 
         $key = Craft::$app->request->getParam('key');
-        $apiKey = Craft::parseEnv(Reporter::$plugin->getSettings()->apiKey);
+        $apiKey = Craft::parseEnv(CraftStatus::$plugin->getSettings()->apiKey);
 
         if (!$key) {
             $message = 'Missing parameter: `key`.';
