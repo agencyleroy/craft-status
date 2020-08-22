@@ -1,12 +1,10 @@
 # Craft Status plugin for Craft CMS 3.x
 
-Get craft status for our dashboard.
-
-![Screenshot](resources/img/plugin-logo.png)
+This plugin will enable status querying for Agency Leroy dashboard.
 
 ## Requirements
 
-This plugin requires Craft CMS 3.0.0-beta.23 or later.
+This plugin requires Craft CMS 3.2.0 or later.
 
 ## Installation
 
@@ -22,22 +20,18 @@ To install the plugin, follow these instructions.
 
 3. In the Control Panel, go to Settings → Plugins and click the “Install” button for Craft Status.
 
-## Craft Status Overview
+## Overview
 
--Insert text here-
+This plugin will enable status querying for Agency Leroy dashboard.
 
-## Configuring Craft Status
+## Configuring Craft Reporter
 
--Insert text here-
+Navigate to **Settings 🡒 Craft Status**. Generate a new API key, set the site URL and click Save. Now navigate to Agency Leroy status dashboard and add a new site with these settings.
 
-## Using Craft Status
+## Found a bug?
 
--Insert text here-
-
-## Craft Status Roadmap
-
-Some things to do, and ideas for potential features:
-
-* Release it
+Check the issues or [open a new one](https://github.com/agencyleroy/craft-status/issues)!
 
 Brought to you by [Agency Leroy](https://agencyleroy.com)
+
+
