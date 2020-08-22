@@ -11,8 +11,8 @@
         "craft status"
     ],
     "support": {
-        "docs": "https://github.com/craft-status/craft-status/blob/master/README.md",
-        "issues": "https://github.com/craft-status/craft-status/issues"
+        "docs": "https://github.com/agencyleroy/craft-status/blob/master/README.md",
+        "issues": "https://github.com/agencyleroy/craft-status/issues"
     },
     "license": "MIT",
     "authors": [
@@ -34,8 +34,8 @@
         "handle": "craft-status",
         "developer": "Agency Leroy",
         "developerUrl": "https://agencyleroy.com",
-        "documentationUrl": "https://github.com/craft-status/craft-status/blob/master/README.md",
-        "changelogUrl": "https://raw.githubusercontent.com/craft-status/craft-status/master/CHANGELOG.md",
+        "documentationUrl": "https://github.com/agencyleroy/craft-status/blob/master/README.md",
+        "changelogUrl": "https://raw.githubusercontent.com/agencyleroy/craft-status/master/CHANGELOG.md",
         "components": {
             "versions": "agencyleroy\\craftstatus\\services\\Versions"
         },
