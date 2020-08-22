@@ -1,0 +1,44 @@
+{
+    "name": "agencyleroy/craft-status",
+    "description": "Get craft status for our dashboard.",
+    "type": "craft-plugin",
+    "version": "1.0.0",
+    "keywords": [
+        "craft",
+        "cms",
+        "craftcms",
+        "craft-plugin",
+        "craft status"
+    ],
+    "support": {
+        "docs": "https://github.com/craft-status/craft-status/blob/master/README.md",
+        "issues": "https://github.com/craft-status/craft-status/issues"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Agency Leroy",
+            "homepage": "https://agencyleroy.com"
+        }
+    ],
+    "require": {
+        "craftcms/cms": "^3.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+          "agencyleroy\\craftstatus\\": "src/"
+        }
+    },
+    "extra": {
+        "name": "Craft Status",
+        "handle": "craft-status",
+        "developer": "Agency Leroy",
+        "developerUrl": "https://agencyleroy.com",
+        "documentationUrl": "https://github.com/craft-status/craft-status/blob/master/README.md",
+        "changelogUrl": "https://raw.githubusercontent.com/craft-status/craft-status/master/CHANGELOG.md",
+        "components": {
+            "versions": "agencyleroy\\craftstatus\\services\\Versions"
+        },
+        "class": "agencyleroy\\craftstatus\\CraftStatus"
+    }
+}

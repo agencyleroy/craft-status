@@ -1,0 +1,17 @@
+{% import "_includes/forms" as forms %}
+
+{% set newKey = craft.app.session.getFlash('apiKey') %}
+
+{{ forms.autosuggestField({
+    required: true,
+    label: 'API Key' | t('craft-status'),
+    instructions: 'This is your API key, **keep it someplace safe** and make sure to save the settings.' | t('craft-status'),
+    id: 'apiKey',
+    name: 'apiKey',
+    suggestEnvVars: true,
+    value: newKey ?? settings.apiKey,
+}) }}
+
+<button type="submit" name="regenerate" class="btn submit">
+    Generate a new API Token
+</button>
