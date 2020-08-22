@@ -39,7 +39,7 @@ use yii\web\UnauthorizedHttpException;
  * @package   CraftStatus
  * @since     1.0.0
  */
-class StatusController extends Controller
+class StatusController extends BaseController
 {
 
     // Protected Properties
